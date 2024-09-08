@@ -20,6 +20,8 @@ function checkName(name) {
       result = true;
     }
   }
+  //another way to check the values if true then good name if not then bad name
+  // let result = checkArray.includes(lastName);
   return result ? "Good Name" : "Bad Name"; // ternary operator
 }
 
@@ -28,4 +30,3 @@ console.log(checkName("Limon"));
 console.log(checkName("Lima"));
 console.log(checkName("RAFEE"));
 console.log(checkName(199));
-console.log(checkName(["Rashed"]));
